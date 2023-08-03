@@ -134,6 +134,18 @@ section {
   visibility: visible;
   opacity: 0.5;
 }
+.btn-equal-width {
+  display: flex;
+  justify-content: center;
+}
+
+/* Forzare la stessa larghezza per tutti i pulsanti */
+.btn-equal-width .btn {
+  flex-grow: 1;
+  min-width: 0;
+  height: 50px; /* Regola questa altezza come preferisci */
+}
+
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
